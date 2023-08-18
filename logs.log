@@ -1,0 +1,299 @@
+2023-08-18 15:39:45,884:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-18 15:39:45,884:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-18 15:39:45,884:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-18 15:39:45,884:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-18 15:39:47,440:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-08-18 15:39:48,089:INFO:Initializing load_model()
+2023-08-18 15:39:48,089:INFO:load_model(model_name=model_classifier_cardio, platform=None, authentication=None, verbose=True)
+2023-08-18 15:41:39,856:INFO:Initializing predict_model()
+2023-08-18 15:41:39,857:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000296ACF44D90>, estimator=Pipeline(memory=FastMemory(location=C:\Users\yapdo\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting_BP', 'cholesterol',
+                                             'fasting_BS', 'max_HR',
+                                             'old_peak'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'chest_pain',
+                                             'exercise_angina', 'ST_slope'],
+                                    transformer=Simp...
+                                    transformer=KBinsDiscretizer(encode='ordinal',
+                                                                 strategy='kmeans'))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 <catboost.core.CatBoostClassifier object at 0x00000296ACC55C40>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=0, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x00000296AD1F1550>)
+2023-08-18 15:41:39,857:INFO:Checking exceptions
+2023-08-18 15:41:39,857:INFO:Preloading libraries
+2023-08-18 15:41:39,857:INFO:Set up data.
+2023-08-18 15:41:39,865:INFO:Set up index.
+2023-08-18 15:42:06,551:INFO:Initializing predict_model()
+2023-08-18 15:42:06,551:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000296AA590A00>, estimator=Pipeline(memory=FastMemory(location=C:\Users\yapdo\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting_BP', 'cholesterol',
+                                             'fasting_BS', 'max_HR',
+                                             'old_peak'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'chest_pain',
+                                             'exercise_angina', 'ST_slope'],
+                                    transformer=Simp...
+                                    transformer=KBinsDiscretizer(encode='ordinal',
+                                                                 strategy='kmeans'))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 <catboost.core.CatBoostClassifier object at 0x00000296ACC55C40>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=0, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x00000296AD369F70>)
+2023-08-18 15:42:06,551:INFO:Checking exceptions
+2023-08-18 15:42:06,551:INFO:Preloading libraries
+2023-08-18 15:42:06,552:INFO:Set up data.
+2023-08-18 15:42:06,560:INFO:Set up index.
+2023-08-18 15:44:20,875:INFO:Initializing predict_model()
+2023-08-18 15:44:20,876:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000296ACBFF640>, estimator=Pipeline(memory=FastMemory(location=C:\Users\yapdo\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting_BP', 'cholesterol',
+                                             'fasting_BS', 'max_HR',
+                                             'old_peak'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'chest_pain',
+                                             'exercise_angina', 'ST_slope'],
+                                    transformer=Simp...
+                                    transformer=KBinsDiscretizer(encode='ordinal',
+                                                                 strategy='kmeans'))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 <catboost.core.CatBoostClassifier object at 0x00000296ACC55C40>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=0, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x00000296AD1F1310>)
+2023-08-18 15:44:20,876:INFO:Checking exceptions
+2023-08-18 15:44:20,876:INFO:Preloading libraries
+2023-08-18 15:44:20,876:INFO:Set up data.
+2023-08-18 15:44:20,889:INFO:Set up index.
+2023-08-18 15:48:12,129:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-18 15:48:12,130:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-18 15:48:12,130:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-18 15:48:12,130:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-18 15:48:13,202:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-08-18 15:48:13,633:INFO:Initializing load_model()
+2023-08-18 15:48:13,634:INFO:load_model(model_name=model_classifier_cardio, platform=None, authentication=None, verbose=True)
+2023-08-18 15:48:23,156:WARNING:C:\Users\yapdo\anaconda3\envs\mlopss\lib\site-packages\IPython\core\interactiveshell.py:3513: UserWarning: To exit: use 'exit', 'quit', or Ctrl-D.
+  warn("To exit: use 'exit', 'quit', or Ctrl-D.", stacklevel=1)
+
+2023-08-18 15:48:48,006:INFO:Initializing predict_model()
+2023-08-18 15:48:48,007:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000296AA590A00>, estimator=Pipeline(memory=FastMemory(location=C:\Users\yapdo\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting_BP', 'cholesterol',
+                                             'fasting_BS', 'max_HR',
+                                             'old_peak'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'chest_pain',
+                                             'exercise_angina', 'ST_slope'],
+                                    transformer=Simp...
+                                    transformer=KBinsDiscretizer(encode='ordinal',
+                                                                 strategy='kmeans'))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 <catboost.core.CatBoostClassifier object at 0x00000296ACC55C40>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=0, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x00000296AD3770D0>)
+2023-08-18 15:48:48,007:INFO:Checking exceptions
+2023-08-18 15:48:48,007:INFO:Preloading libraries
+2023-08-18 15:48:48,007:INFO:Set up data.
+2023-08-18 15:48:48,013:INFO:Set up index.
+2023-08-18 15:50:14,393:INFO:Initializing load_model()
+2023-08-18 15:50:14,393:INFO:load_model(model_name=model_classifier_cardio, platform=None, authentication=None, verbose=True)
+2023-08-18 15:50:31,950:INFO:Initializing load_model()
+2023-08-18 15:50:31,950:INFO:load_model(model_name=model_classifier_cardio, platform=None, authentication=None, verbose=True)
+2023-08-18 15:50:53,135:INFO:Initializing load_model()
+2023-08-18 15:50:53,136:INFO:load_model(model_name=model_classifier_cardio, platform=None, authentication=None, verbose=True)
+2023-08-18 15:51:33,763:INFO:Initializing predict_model()
+2023-08-18 15:51:33,763:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000296ACF63BB0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\yapdo\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting_BP', 'cholesterol',
+                                             'fasting_BS', 'max_HR',
+                                             'old_peak'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'chest_pain',
+                                             'exercise_angina', 'ST_slope'],
+                                    transformer=Simp...
+                                    transformer=KBinsDiscretizer(encode='ordinal',
+                                                                 strategy='kmeans'))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 <catboost.core.CatBoostClassifier object at 0x00000296ACC55C40>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=0, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x00000296AD377040>)
+2023-08-18 15:51:33,763:INFO:Checking exceptions
+2023-08-18 15:51:33,763:INFO:Preloading libraries
+2023-08-18 15:51:33,763:INFO:Set up data.
+2023-08-18 15:51:33,770:INFO:Set up index.
+2023-08-18 15:54:00,712:INFO:Initializing load_model()
+2023-08-18 15:54:00,713:INFO:load_model(model_name=model_classifier_cardio, platform=None, authentication=None, verbose=True)
+2023-08-18 15:54:18,085:INFO:Initializing predict_model()
+2023-08-18 15:54:18,085:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001AD0D0B9040>, estimator=Pipeline(memory=FastMemory(location=C:\Users\yapdo\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting_BP', 'cholesterol',
+                                             'fasting_BS', 'max_HR',
+                                             'old_peak'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'chest_pain',
+                                             'exercise_angina', 'ST_slope'],
+                                    transformer=Simp...
+                                    transformer=KBinsDiscretizer(encode='ordinal',
+                                                                 strategy='kmeans'))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 <catboost.core.CatBoostClassifier object at 0x000001AD0E5405B0>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x000001AD0E574820>)
+2023-08-18 15:54:18,085:INFO:Checking exceptions
+2023-08-18 15:54:18,085:INFO:Preloading libraries
+2023-08-18 15:54:18,086:INFO:Set up data.
+2023-08-18 15:54:18,094:INFO:Set up index.
+2023-08-18 15:54:45,981:INFO:Initializing predict_model()
+2023-08-18 15:54:45,981:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001AD0E706DC0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\yapdo\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting_BP', 'cholesterol',
+                                             'fasting_BS', 'max_HR',
+                                             'old_peak'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'chest_pain',
+                                             'exercise_angina', 'ST_slope'],
+                                    transformer=Simp...
+                                    transformer=KBinsDiscretizer(encode='ordinal',
+                                                                 strategy='kmeans'))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 <catboost.core.CatBoostClassifier object at 0x000001AD0E5405B0>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x000001AD0CE028B0>)
+2023-08-18 15:54:45,981:INFO:Checking exceptions
+2023-08-18 15:54:45,981:INFO:Preloading libraries
+2023-08-18 15:54:45,982:INFO:Set up data.
+2023-08-18 15:54:45,988:INFO:Set up index.
+2023-08-18 15:54:54,419:INFO:Initializing predict_model()
+2023-08-18 15:54:54,419:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001AD0D273D00>, estimator=Pipeline(memory=FastMemory(location=C:\Users\yapdo\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting_BP', 'cholesterol',
+                                             'fasting_BS', 'max_HR',
+                                             'old_peak'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'chest_pain',
+                                             'exercise_angina', 'ST_slope'],
+                                    transformer=Simp...
+                                    transformer=KBinsDiscretizer(encode='ordinal',
+                                                                 strategy='kmeans'))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 <catboost.core.CatBoostClassifier object at 0x000001AD0E5405B0>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x000001AD0E70E670>)
+2023-08-18 15:54:54,419:INFO:Checking exceptions
+2023-08-18 15:54:54,419:INFO:Preloading libraries
+2023-08-18 15:54:54,420:INFO:Set up data.
+2023-08-18 15:54:54,433:INFO:Set up index.
+2023-08-18 15:55:17,802:INFO:Initializing predict_model()
+2023-08-18 15:55:17,802:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001AD0E718220>, estimator=Pipeline(memory=FastMemory(location=C:\Users\yapdo\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting_BP', 'cholesterol',
+                                             'fasting_BS', 'max_HR',
+                                             'old_peak'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'chest_pain',
+                                             'exercise_angina', 'ST_slope'],
+                                    transformer=Simp...
+                                    transformer=KBinsDiscretizer(encode='ordinal',
+                                                                 strategy='kmeans'))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 <catboost.core.CatBoostClassifier object at 0x000001AD0E5405B0>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x000001AD0CE12040>)
+2023-08-18 15:55:17,802:INFO:Checking exceptions
+2023-08-18 15:55:17,802:INFO:Preloading libraries
+2023-08-18 15:55:17,803:INFO:Set up data.
+2023-08-18 15:55:17,810:INFO:Set up index.
+2023-08-18 15:56:13,802:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-18 15:56:13,802:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-18 15:56:13,802:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-18 15:56:13,802:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-18 15:56:14,972:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-08-18 15:56:15,512:INFO:Initializing load_model()
+2023-08-18 15:56:15,512:INFO:load_model(model_name=model_classifier_cardio, platform=None, authentication=None, verbose=True)
+2023-08-18 15:56:22,613:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-18 15:56:22,613:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-18 15:56:22,614:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-18 15:56:22,614:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-18 15:56:23,374:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-08-18 15:56:23,759:INFO:Initializing load_model()
+2023-08-18 15:56:23,759:INFO:load_model(model_name=model_classifier_cardio, platform=None, authentication=None, verbose=True)
+2023-08-18 15:56:47,194:INFO:Initializing predict_model()
+2023-08-18 15:56:47,194:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002675DC93100>, estimator=Pipeline(memory=FastMemory(location=C:\Users\yapdo\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'resting_BP', 'cholesterol',
+                                             'fasting_BS', 'max_HR',
+                                             'old_peak'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'chest_pain',
+                                             'exercise_angina', 'ST_slope'],
+                                    transformer=Simp...
+                                    transformer=KBinsDiscretizer(encode='ordinal',
+                                                                 strategy='kmeans'))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 <catboost.core.CatBoostClassifier object at 0x000002675D5D8AF0>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=0, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x000002675DB66F70>)
+2023-08-18 15:56:47,194:INFO:Checking exceptions
+2023-08-18 15:56:47,194:INFO:Preloading libraries
+2023-08-18 15:56:47,195:INFO:Set up data.
+2023-08-18 15:56:47,201:INFO:Set up index.
