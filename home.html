@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Predict Insurance Bill</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='./style.css') }}">
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>Predict Cardiovascular Issue</h1>
+
+     <!-- Form to enter new data for predictions  -->
+    <form action="{{ url_for('predict')}}"method="POST">
+      <input type="text" name="age" placeholder="Age" required="required" /><br>
+    	<input type="text" name="gender" placeholder="Gender" required="required" /><br>
+        <input type="text" name="chest_pain" placeholder="Chest Pain" required="required" /><br>
+        <input type="text" name="resting_BP" placeholder="Resting blood pressure" required="required" /><br>
+        <input type="text" name="cholesterol" placeholder="Cholesterol" required="required" /><br>
+        <input type="text" name="fasting_BS" placeholder="Fasting Blood Sugar" required="required" /><br>
+        <input type="text" name="resting_ECG" placeholder="Resting electrocardiogram" required="required" /><br>
+        <input type="text" name="max_HR" placeholder="Maximum heart rate" required="required" /><br>
+        <input type="text" name="exercise_angina" placeholder="Exercise angina" required="required" /><br>
+        <input type="text" name="old_peak" placeholder="Old peak" required="required" /><br>
+        <input type="text" name="ST_slope" placeholder="ST slope" required="required" /><br>
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+
+   
+ </div>
+ {{pred}}
+
+</body>
+</html>
