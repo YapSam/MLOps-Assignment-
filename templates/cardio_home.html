@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Predict Insurance Bill</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='./cardio_style.css') }}">
+  
+</head>
+
+<body>
+ <div class="login">
+	<h3>Predict Cardiovascular Issue</h3>
+
+     <!-- Form to enter new data for predictions  -->
+    <!-- <form action="{{ url_for('predict')}}"method="POST">
+      <input type="text" name="age" placeholder="Age" required="required" /><br>
+    	<input type="text" name="gender" placeholder="Gender" required="required" /><br>
+      <input type="text" name="chest_pain" placeholder="Chest Pain" required="required" /><br>
+      <input type="text" name="resting_BP" placeholder="Resting blood pressure" required="required" /><br>
+      <input type="text" name="cholesterol" placeholder="Cholesterol" required="required" /><br>
+      <input type="text" name="fasting_BS" placeholder="Fasting Blood Sugar" required="required" /><br>
+      <input type="text" name="resting_ECG" placeholder="Resting electrocardiogram" required="required" /><br>
+      <input type="text" name="max_HR" placeholder="Maximum heart rate" required="required" /><br>
+      <input type="text" name="exercise_angina" placeholder="Exercise angina" required="required" /><br>
+      <input type="text" name="old_peak" placeholder="Old peak" required="required" /><br>
+      <input type="text" name="ST_slope" placeholder="ST slope" required="required" /><br>
+      <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    
+    </form> -->
+    <!-- Form to enter new data for predictions -->
+    <form action="{{ url_for('predict') }}" method="POST">
+      <input type="text" name="age" placeholder="Age" required="required" /><br>
+      
+      <select id="gender" name="gender" required="required">
+          <option value="">Select > Gender</option>
+          <option value="M">M</option>
+          <option value="F">F</option>
+      </select><br>
+      
+      <select id="chest_pain" name="chest_pain" required="required">
+          <option value="">Select > Chest Pain</option>
+          <option value="ASY">ASY</option>
+          <option value="NAP">NAP</option>
+          <option value="ATA">ATA</option>
+          <option value="TA">TA</option>
+      </select><br>
+      
+      <input type="text" name="resting_BP" placeholder="Resting blood pressure" required="required" /><br>
+      
+      <input type="text" name="cholesterol" placeholder="Cholesterol" required="required" /><br>
+      
+      <select id="fasting_BS" name="fasting_BS" required="required">
+          <option value="">Select > Fasting Blood Sugar</option>
+          <option value="0">0</option>
+          <option value="1">1</option>
+      </select><br>
+      
+      <select id="resting_ECG" name="resting_ECG" required="required">
+          <option value="">Select > Resting Electrocardiogram</option>
+          <option value="Normal">Normal</option>
+          <option value="LVH">LVH</option>
+          <option value="ST">ST</option>
+      </select><br>
+      
+      <input type="text" name="max_HR" placeholder="Maximum heart rate" required="required" /><br>
+      
+      <select id="exercise_angina" name="exercise_angina" required="required">
+          <option value="">Select > Exercise Angina</option>
+          <option value="Y">Y</option>
+          <option value="N">N</option>
+      </select><br>
+      
+      <input type="text" name="old_peak" placeholder="Old peak" required="required" /><br>
+      
+      <select id="ST_slope" name="ST_slope" required="required">
+          <option value="">Select > ST slope</option>
+          <option value="Flat">Flat</option>
+          <option value="Up">Up</option>
+          <option value="Down">Down</option>
+      </select><br>
+      
+      <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+  </form>
+  
+
+
+
+   
+ </div>
+ {{pred}}
+
+</body>
+</html>
+
