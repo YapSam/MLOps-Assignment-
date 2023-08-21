@@ -1,6 +1,6 @@
 # MLOps-Assignment (Flask, HTML, CSS, Pycaret)
 ## Folder Structure 
-
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/c14b34d0-4a43-4e9c-bcec-cfda0f21722a)
 
 ---
 ## Deployment Guide 
