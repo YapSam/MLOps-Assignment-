@@ -21,6 +21,9 @@
 #### Proof of Model Registration
 ![image](https://github.com/YapSam/MLOps-Assignment-/assets/109716754/d58cd6c6-e0b8-488b-9b01-fbf2fe3e324f)
 ![image](https://github.com/YapSam/MLOps-Assignment-/assets/109716754/f46ce51a-0333-4b7c-a8a1-03f3ecee912f)
+### Testing whether my model predicts
+#### I created a new dataset with unique records to see whether my model predicts
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/109716754/93484029-b46d-4fb9-9a7a-aaa60bda3683)
 ### Web Application
 #### The Layout
 ![image](https://github.com/YapSam/MLOps-Assignment-/assets/109716754/690de47c-3fd4-4105-bbdb-f5929ca844b9)
