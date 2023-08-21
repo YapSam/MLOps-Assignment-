@@ -17,6 +17,8 @@
 ### 5. Leave the web app for cardio and open the one for resale price and test it out
 ![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/ebb443f2-edb2-4f29-9c56-720eb3224461)
 ![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/4ba7f6a9-fefc-4f70-9345-f3052a646a8d)
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/aacf6f39-5682-442e-bd35-2eb8a618d50f)
+
 ### Conclusion: Now the applications can be used to predict MLops usage.
 
 
