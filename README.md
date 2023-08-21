@@ -46,6 +46,9 @@
 ![image](https://github.com/YapSam/MLOps-Assignment-/assets/109716754/ea8ecd3d-d0a2-46bd-8536-86a4b8010192)
 #### Monitoring the updates of the dataset using data version control
 ![image](https://github.com/YapSam/MLOps-Assignment-/assets/109716754/c51eb209-5c55-4f39-89cb-3890f5da8c9b)
+#### Fulfiling requirements from the requirements.txt file using MakeFile
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/109716754/84672892-0d09-449f-865a-b557ed6373da)
+
 
 
 
