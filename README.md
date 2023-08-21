@@ -80,9 +80,15 @@
 ![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/e3975224-3430-4944-913d-d9edf7fe6e92)
 #### Hydra code to automatically captures the parameters for .py and .ipynb files
 ![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/4909ae44-f981-4b4e-a0da-011a01ddaaf8)
-#### command to initialize a new Git repository in a directory
-#### command to initialize a new Data Version Control (DVC) repository for my project.
+#### command to initialize a new Git repository in a directory and new Data Version Control (DVC) repository for my project
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/d03e47c0-5c59-496e-8879-61a29adbbb0e)
 #### Initializing DVC
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/ca15b423-7242-4b08-9f8f-5ce84e725dc7)
 #### Monitoring the updates of the dataset using data version control
-#### Fulfiling requirements from the requirements.txt file using MakeFile
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/d1c368f4-89ad-4a71-a40a-9bec8521c5a1)
+#### Fulfiling requirements from the requirements.txt file using MakeFile, Poetry 
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/3ebb8f2a-04d6-4227-8a57-71e7e8f3efec)
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/c5b733dc-164f-4193-9795-bf6864255bd9)
+#### Attempt deployment to Pass server using Netlify (Failed)
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/f3d65382-b279-4cee-a318-e00ab2cfc969)
 
