@@ -50,19 +50,12 @@
 ![image](https://github.com/YapSam/MLOps-Assignment-/assets/109716754/84672892-0d09-449f-865a-b557ed6373da)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Web Application (Cardiovascular Issue Prediction) using Classification
-Exploratory Data Analysis 
-
+### Modeling and Preprocessing
+#### Setup with preprocessing methods for Classification 
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/360a600a-122c-4d2a-8826-654b4d1e9ee9)
+#### Comparing Models. My best Model is Cat-Boost Classifier
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/db6d0c1f-e2f4-40ac-a423-077a7dcf09a8)
+#### Plotting Best Model
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/61c2fc75-39c2-4d8c-9156-577e02b57ad2)
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/53ef9110-3e5d-4e9e-8545-41338c356997)
