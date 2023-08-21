@@ -59,3 +59,30 @@
 #### Plotting Best Model
 ![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/61c2fc75-39c2-4d8c-9156-577e02b57ad2)
 ![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/53ef9110-3e5d-4e9e-8545-41338c356997)
+#### Proof of Model Registration
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/4d5f289b-c1ed-4137-8d39-18d94843d4cf)
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/cb6e8d23-5fc5-4814-b868-95da4b2da717)
+
+### Prediction of unseen data
+#### A dataset is created to see what the cv_status is predicted as
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/be1c33be-a614-4557-84c9-eee5477f46d3)
+
+### Web Application
+#### The Layout
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/cba7a004-c851-45ad-b149-54728a46d340)
+#### Prediction Output
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/33b38d38-3191-43e8-bc82-5654e8f8e3c0)
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/348e3a5d-2e98-4607-b5d3-47fe56e029a8)
+
+### Task 4 (Hydra, DVC and Poetry)
+#### Cookiecutter
+#### config.yaml file configuration
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/e3975224-3430-4944-913d-d9edf7fe6e92)
+#### Hydra code to automatically captures the parameters for .py and .ipynb files
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/4909ae44-f981-4b4e-a0da-011a01ddaaf8)
+#### command to initialize a new Git repository in a directory
+#### command to initialize a new Data Version Control (DVC) repository for my project.
+#### Initializing DVC
+#### Monitoring the updates of the dataset using data version control
+#### Fulfiling requirements from the requirements.txt file using MakeFile
+
