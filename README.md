@@ -1,5 +1,5 @@
 # MLOps-Assignment (Flask, HTML, CSS, Pycaret)-
-## Web Application (Resale Price Prediction) using Regression
+## Web Application (Resale Price Prediction) using Regression (Abinaya)
 ### Data Cleaning
 #### I did some data cleaning for my dataset. There is this column name month. It is in YYYY/MM format. So I decided to split the year from the month column. The image below shows how I did it.
 ![image](https://github.com/YapSam/MLOps-Assignment-/assets/109716754/27313963-9487-4152-9146-48279ccf2eb1)
@@ -21,6 +21,36 @@
 #### Proof of Model Registration
 ![image](https://github.com/YapSam/MLOps-Assignment-/assets/109716754/d58cd6c6-e0b8-488b-9b01-fbf2fe3e324f)
 ![image](https://github.com/YapSam/MLOps-Assignment-/assets/109716754/f46ce51a-0333-4b7c-a8a1-03f3ecee912f)
+### Web Application
+#### The Layout
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/109716754/690de47c-3fd4-4105-bbdb-f5929ca844b9)
+#### The Prediction
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/109716754/a9c533f7-aaed-4b7d-b53c-9b1904628c39)
+
+### Task 4 (Hydra, DVC and Poetry)
+#### Cookiecutter
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/109716754/eef7e6b8-4af7-4a93-8e24-45b3b648a697)
+#### main.yaml file configuration
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/109716754/f626d558-84b2-4f79-a249-f3c44c429747)
+#### Hydra code to automatically captures the parameters
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/109716754/463d1900-5edc-40b5-be12-987ef9bff053)
+####  command to initialize a new Git repository in a directory
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/109716754/3ad6361c-3844-4122-a962-49df59477178)
+#### command to initialize a new Data Version Control (DVC) repository for my project.
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/109716754/f734f21c-5a5b-428a-a3d3-e9003194adc3)
+#### Initializing DVC
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/109716754/ea8ecd3d-d0a2-46bd-8536-86a4b8010192)
+#### Monitoring the updates of the dataset using data version control
+![image](https://github.com/YapSam/MLOps-Assignment-/assets/109716754/c51eb209-5c55-4f39-89cb-3890f5da8c9b)
+
+
+
+
+
+
+
+
+
 
 
 
