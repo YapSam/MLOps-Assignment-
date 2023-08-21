@@ -7,7 +7,7 @@
 ### 1. Running of PyCaret notebooks to save the pipeline models (/models) stored locally in the pc
 ![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/c9ce5c95-5742-4808-bb5e-756be74db3be)
 ![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/ff9dd021-ec38-4f40-888d-1eefb6ae7c51)
-### 2. Open an anaconda promopt
+### 2. Open an anaconda prompt
 ![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/71077f2e-27d5-4ecd-a858-361be49b4b00)
 ### 3. Activate the conda virtual pre-created with the relevant libraries installed (Flask, Mlflow, Pycaret)
 ![image](https://github.com/YapSam/MLOps-Assignment-/assets/133552118/5365d8a2-9519-489c-8182-5a69a33a61c6)
