@@ -20,6 +20,7 @@
 ![image](https://github.com/YapSam/MLOps-Assignment-/assets/109716754/be425834-7b5f-4be5-8efd-b6cf01726ed0)
 #### Proof of Model Registration
 ![image](https://github.com/YapSam/MLOps-Assignment-/assets/109716754/d58cd6c6-e0b8-488b-9b01-fbf2fe3e324f)
+
 ![image](https://github.com/YapSam/MLOps-Assignment-/assets/109716754/f46ce51a-0333-4b7c-a8a1-03f3ecee912f)
 ### Testing whether my model predicts
 #### I created a new dataset with unique records to see whether my model predicts
