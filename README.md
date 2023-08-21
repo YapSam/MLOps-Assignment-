@@ -1,2 +1,5 @@
 # MLOps-Assignment-
-This is Yes
+## Web Application (Resale Price Prediction), Regression 
+
+## Web Application (Cardiovascular Issue Prediction), Classification
+
